@@ -173,7 +173,7 @@ public class Prijevoznici extends javax.swing.JInternalFrame {
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/kamion na vagi 1_resize (1).jpg"))); // NOI18N
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(-60, 0, 530, 500);
+        jLabel4.setBounds(-60, 0, 520, 460);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

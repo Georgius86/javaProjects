@@ -75,7 +75,7 @@ public class ObradaVozaci {
                      + "oib) values (?,?,?)", Statement.RETURN_GENERATED_KEYS);
              command.setString(1, v.getIme());
              command.setString(2, v.getPrezime());
-             command.setString(3, v.getOib());          
+             command.setString(3, v.getOib());           
              command.executeUpdate();          
               ResultSet rs = command.getGeneratedKeys();
                 rs.next();

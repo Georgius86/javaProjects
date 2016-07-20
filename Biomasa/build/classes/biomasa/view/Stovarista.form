@@ -36,7 +36,7 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="23" max="32767" attributes="0"/>
+              <EmptySpace pref="50" max="32767" attributes="0"/>
               <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
           </Group>
@@ -163,15 +163,13 @@
                       <Component id="akcijaPovratak" alignment="1" min="-2" pref="97" max="-2" attributes="0"/>
                       <Group type="102" alignment="1" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="akcijaDodaj" min="-2" pref="88" max="-2" attributes="0"/>
-                                  <Component id="jLabel2" max="32767" attributes="0"/>
-                                  <Component id="jLabel1" alignment="0" pref="102" max="32767" attributes="0"/>
-                                  <Component id="jLabel4" alignment="0" max="32767" attributes="0"/>
-                              </Group>
-                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" pref="59" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" pref="88" max="-2" attributes="0"/>
+                              <Component id="akcijaDodaj" min="-2" pref="88" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <EmptySpace min="32" pref="32" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Component id="naziv" max="32767" attributes="0"/>
                               <Component id="adresa" max="32767" attributes="0"/>
@@ -320,7 +318,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Povr&#x161;ina(m^2):"/>
+            <Property name="text" type="java.lang.String" value="Povr&#x161;ina:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="mjesto">

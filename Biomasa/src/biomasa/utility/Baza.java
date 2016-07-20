@@ -28,7 +28,7 @@ public class Baza {
             try {
                 Class.forName("com.mysql.jdbc.Driver");
                 link=DriverManager.getConnection("jdbc:mysql://localhost/ams?"
-              + "user=edunova&password=edunova&useUnicode=yes&characterEncoding=utf8");
+              + "user=ams&password=ams&useUnicode=yes&characterEncoding=utf8");
                 
             } catch (ClassNotFoundException | SQLException e) {
                 Logger.getLogger(Baza.class.getName()).log(Level.SEVERE, null, e);
