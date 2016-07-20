@@ -1,0 +1,18 @@
+1. Pokrenuti MySQL lokalno na raèunalu (XAMPP, WAMP, LAMP ...)
+2. preko Command Prompta ili terminala pronaæi mysql bin folder i ukucati:
+npr.
+
+c:\xampp\mysql\bin>mysql -uroot
+
+mysql> grant all privileges on *.* to 'ams'@'localhost' identified by 'ams';
+
+mysql> exit
+
+3. Logiranje na bazu i ubacivanje podataka:
+npr.
+
+c:\xampp\mysql\bin\mysql -uams -pams --default_character_set=utf8 < c:\Users\George\Documents\NetBeansProjects\Biomasa\bio.sql
+
+gdje je bio.sql nasa baza podataka u projektu...
+
+4. Nakon toga mozete pokrenuti program nakon sto je ucitan u neki IDE workspace.
